@@ -1,10 +1,10 @@
 var animation = bodymovin.loadAnimation({
-  container: document.getElementById("player"), // Required
-  path: "./res/template-1.json", // Required
-  renderer: "svg", // Required
-  loop: true, // Optional
-  autoplay: false, // Optional
-  name: "Animation", // Name for future reference. Optional.
+  container: document.getElementById("player"),
+  path: "./res/template-1.json",
+  renderer: "svg",
+  loop: true,
+  autoplay: false,
+  name: "Animation",
 });
 
 animation.play();
